@@ -1,0 +1,59 @@
+
+#accordion .panel-title > a {
+	display: block;
+	padding: 0.4em 0.6em;
+    outline: none;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+#pl-expand-toggle span.toggle-icon > a.accordion-toggle::before, #accordion a[data-toggle="collapse"]::before  {
+    content:"+";
+    float: left;
+    font-family: 'Glyphicons Halflings';
+	margin-right :1em;
+}
+
+.pl-expand-container {
+	margin: 0 0 5px;
+}
+.pl-expand-toggle {
+	position: relative;
+	display: block;
+	padding: 5px;
+}
+	
+.pl-expand-toggle span.toggle-icon {
+	position: absolute!important;
+	top: 10px;
+	right: 20px;
+	font-size: 1.5em;
+}
+.pl-expand-content {
+	display: none;
+	padding: 5px;
+	overflow: auto;
+	
+}
+
+.pl-expandshortcode-container {
+	margin: 0 0 5px;
+}
+.pl-expandshortcode-toggle {
+	position: relative;
+	display: block;
+	padding: 5px;
+}
+	
+.pl-expandshortcode-toggle span.toggle-icon {
+	position: absolute!important;
+	top: 10px;
+	right: 20px;
+	font-size: 1.5em;
+}
+.pl-expandshortcode-content {
+	display: none;
+	padding: 5px;
+	overflow: auto;
+	
+}
